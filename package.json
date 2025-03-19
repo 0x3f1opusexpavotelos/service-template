@@ -1,7 +1,7 @@
 {
   "name": "service-template",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.1",
   "packageManager": "pnpm@9.15.2",
   "description": "service-template",
   "authors": [
