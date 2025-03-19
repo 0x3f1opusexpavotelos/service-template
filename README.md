@@ -28,6 +28,7 @@ npm publish
 - clone repo support
 - copy template folder support
 - run custom command support
+- Supports config file `service.config.ts`:
 
 ## Quickstart
 
@@ -63,6 +64,8 @@ or just add it your script
 # run the script
 pnpm create-service
 ```
+
+use config file to specify option
 
 ```ts
 // service.config.ts
