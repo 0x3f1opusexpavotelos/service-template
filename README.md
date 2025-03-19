@@ -2,9 +2,11 @@
 
 package are being [published to npm]()
 
-<p align="center">
+<div align="center">
 
-</p>
+https://github.com/user-attachments/assets/be3361bc-3447-4f46-bf2c-3efcb561b892
+
+</div>
 
 ```bash
 npm pkg fix
