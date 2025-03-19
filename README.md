@@ -1,6 +1,16 @@
----
-title: service-template
----
+# Service-template
+
+package are being [published to npm]()
+
+<p align="center">
+
+</p>
+
+```bash
+npm pkg fix
+npm login
+npm publish
+```
 
 ## Features
 
@@ -11,7 +21,7 @@ title: service-template
 
 ## Usage
 
-With PNPM:
+With `pnpm`:
 
 ```bash
 run the executable
@@ -32,7 +42,7 @@ pnpm create-service
 ```
 
 ```ts
-// bump.config.ts
+// service.config.ts
 import { defineConfig } from 'service-template'
 
 export default defineConfig({

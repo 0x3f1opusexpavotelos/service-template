@@ -20,7 +20,7 @@
   "homepage": "https://github.com/0x3f1opusexpavotelos/service-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/0x3f1opusexpavotelos/service-template",
+    "url": "git+https://github.com/0x3f1opusexpavotelos/service-template.git",
     "directory": "."
   },
   "bugs": {
@@ -34,7 +34,9 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "bin": "./bin/index.js",
+  "bin": {
+    "service-template": "bin/service-template.js"
+  },
   "files": [
     "bin",
     "dist",
