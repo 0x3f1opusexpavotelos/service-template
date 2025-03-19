@@ -1,0 +1,31 @@
+singleQuote: true
+jsxSingleQuote: false
+printWidth: 80
+trailingComma: es5
+bracetStyle: 1tbs
+semi: false
+overrides:
+  [
+    {
+      files: ["*.json5"],
+      options: { singleQuote: false, quoteProps: preserve },
+    },
+    { files: ["*.md"], options: { printWidth: 42, semi: false } },
+    { files: ["*.yml"], options: { singleQuote: false } },
+  ]
+arrowParens: always
+bracketSameLine: false
+objectWrap: preserve
+bracketSpacing: true
+experimentalOperatorPosition: end
+experimentalTernaries: false
+quoteProps: as-needed
+singleAttributePerLine: false
+htmlWhitespaceSensitivity: css
+vueIndentScriptAndStyle: false
+proseWrap: preserve
+insertPragma: false
+requirePragma: false
+tabWidth: 2
+useTabs: false
+embeddedLanguageFormatting: auto

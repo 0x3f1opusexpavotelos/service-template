@@ -1,0 +1,84 @@
+{
+  "name": "service-template",
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.15.2",
+  "description": "service-template",
+  "authors": [
+    {
+      "name": "Xi Yuan",
+      "url": "https://blog.lavitalite.tech"
+    }
+  ],
+  "owners": [
+    {
+      "name": "Xi Yuan",
+      "githubUsername": "0x3f1opusexpavotelos"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/0x3f1opusexpavotelos/service-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x3f1opusexpavotelos/service-template",
+    "directory": "."
+  },
+  "bugs": {
+    "url": "https://github.com/0x3f1opusexpavotelos/service-template/issues"
+  },
+  "keywords": [
+    "service-template"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": "./bin/index.js",
+  "files": [
+    "bin",
+    "dist",
+    "template-*"
+  ],
+  "engines": {
+    "node": "^18.0.0 || ^20.0.0 || >=22.0.0"
+  },
+  "scripts": {
+    "lint:check": "eslint --fix-dry-run",
+    "start": "tsx src/cli/run.ts",
+    "bumpp": "tsx src/cli/run.ts",
+    "build": "tsup src/index.ts src/cli.ts  --format esm --dts --clean --outDir dist",
+    "build:inspector": "pnpm build && npx @eslint/config-inspector build",
+    "test": "tsx src/cli/detect.ts"
+  },
+  "dependencies": {
+    "c12": "^3.0.2",
+    "cac": "^6.7.14",
+    "escalade": "^3.2.0",
+    "is-unicode-supported": "^2.1.0",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2",
+    "tinyexec": "^0.3.2",
+    "tinyglobby": "^0.2.12"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.10.1",
+    "@types/node": "^22.13.10",
+    "@types/prompts": "^2.4.9",
+    "eslint": "^9.22.0",
+    "lint-staged": "^15.5.0",
+    "simple-git-hooks": "^2.11.1",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "!(*.ts)": "eslint --fix-dry-run",
+    "*.ts": [
+      "eslint --fix"
+    ]
+  }
+}
