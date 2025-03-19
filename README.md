@@ -41,11 +41,14 @@ pnpm add --save-dev service-template
 
 ## Usage
 
-With `pnpm`:
+With any package manager you perfer
 
 ```bash
-run the executable
+# run the executable
+# pnpm
 pnpx service-template
+# npm
+npx serivce-template
 ```
 
 or just add it your script
