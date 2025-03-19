@@ -1,6 +1,14 @@
-# Service-template
+🚧 package are being [published to npm](https://www.npmjs.com/package/service-template)
 
-package are being [published to npm]()
+
+<h1 align="center">boostrap project like a breeze 🪄</h1>
+<blockquote>
+<p dir="auto"><code>serivce-tempalte</code> is a cli that helps boostrap new project or deploy template.</p>
+</blockquote>
+
+<p align="center">
+<a href="https://npmjs.com/package/@stylistic/eslint-plugin-js"><img src="https://img.shields.io/npm/v/service-template?style=flat&colorA=1B3C4A&colorB=32A9C3" alt="npm version"></a>
+</p>
 
 <div align="center">
 
@@ -20,6 +28,16 @@ npm publish
 - clone repo support
 - copy template folder support
 - run custom command support
+
+## Quickstart
+
+
+```bash
+# npm
+npm install --save-dev service-template
+# pnpm
+pnpm add --save-dev service-template
+```
 
 ## Usage
 
