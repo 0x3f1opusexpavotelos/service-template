@@ -22,6 +22,16 @@ npm login
 npm publish
 ```
 
+
+
+## Support Further 
+
+- [![GitHub Sponsors](https://img.shields.io/badge/-black?style=social&logo=githubsponsors&label=GitHub%20Sponsor%3A%20Street%20Side%20Software)](https://github.com/sponsors/0x3f1opusexpavotelos)
+- [![Patreon](https://img.shields.io/badge/-black?style=social&logo=patreon&label=Patreon%3A%20Street%20Side%20Software)](https://patreon.com/0x3f1opusexpavotelos)
+- [![PayPal](https://img.shields.io/badge/-black?style=social&logo=paypal&label=PayPal%20Donate%3A%20Street%20Side%20Software)](https://www.paypal.com/donate/?hosted_button_id=)
+- [![Open Collective](https://img.shields.io/badge/-black?style=social&logo=opencollective&label=Open%20Collective%3A%20Code%20Spell%20Checker)](https://opencollective.com/0x3f1opusexpavotelos)
+
+
 ## Features
 
 - ship with sdk and cli usage
